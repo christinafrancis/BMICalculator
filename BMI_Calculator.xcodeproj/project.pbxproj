@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF26EDB517FC88B200B217FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF26EDB417FC88B200B217FF /* UIKit.framework */; };
+		CF26EDB717FC88B200B217FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF26EDB617FC88B200B217FF /* Foundation.framework */; };
+		CF26EDB917FC88B200B217FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF26EDB817FC88B200B217FF /* CoreGraphics.framework */; };
+		CF26EDBF17FC88B200B217FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF26EDBD17FC88B200B217FF /* InfoPlist.strings */; };
+		CF26EDC117FC88B200B217FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF26EDC017FC88B200B217FF /* main.m */; };
+		CF26EDC517FC88B200B217FF /* CFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF26EDC417FC88B200B217FF /* CFAppDelegate.m */; };
+		CF26EDC717FC88B200B217FF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CF26EDC617FC88B200B217FF /* Default.png */; };
+		CF26EDC917FC88B200B217FF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF26EDC817FC88B200B217FF /* Default@2x.png */; };
+		CF26EDCB17FC88B200B217FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF26EDCA17FC88B200B217FF /* Default-568h@2x.png */; };
+		CF26EDCE17FC88B200B217FF /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF26EDCC17FC88B200B217FF /* MainStoryboard_iPhone.storyboard */; };
+		CF26EDD117FC88B200B217FF /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF26EDCF17FC88B200B217FF /* MainStoryboard_iPad.storyboard */; };
+		CF26EDD417FC88B200B217FF /* CFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF26EDD317FC88B200B217FF /* CFViewController.m */; };
+		CF26EDDC17FC88B200B217FF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF26EDDB17FC88B200B217FF /* SenTestingKit.framework */; };
+		CF26EDDD17FC88B200B217FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF26EDB417FC88B200B217FF /* UIKit.framework */; };
+		CF26EDDE17FC88B200B217FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF26EDB617FC88B200B217FF /* Foundation.framework */; };
+		CF26EDE617FC88B200B217FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF26EDE417FC88B200B217FF /* InfoPlist.strings */; };
+		CF26EDE917FC88B200B217FF /* BMI_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF26EDE817FC88B200B217FF /* BMI_CalculatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF26EDDF17FC88B200B217FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF26EDA917FC88B200B217FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF26EDB017FC88B200B217FF;
+			remoteInfo = BMI_Calculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF26EDB117FC88B200B217FF /* BMI_Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMI_Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF26EDB417FC88B200B217FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF26EDB617FC88B200B217FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF26EDB817FC88B200B217FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF26EDBC17FC88B200B217FF /* BMI_Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BMI_Calculator-Info.plist"; sourceTree = "<group>"; };
+		CF26EDBE17FC88B200B217FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF26EDC017FC88B200B217FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF26EDC217FC88B200B217FF /* BMI_Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BMI_Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		CF26EDC317FC88B200B217FF /* CFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFAppDelegate.h; sourceTree = "<group>"; };
+		CF26EDC417FC88B200B217FF /* CFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFAppDelegate.m; sourceTree = "<group>"; };
+		CF26EDC617FC88B200B217FF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CF26EDC817FC88B200B217FF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CF26EDCA17FC88B200B217FF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CF26EDCD17FC88B200B217FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CF26EDD017FC88B200B217FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CF26EDD217FC88B200B217FF /* CFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFViewController.h; sourceTree = "<group>"; };
+		CF26EDD317FC88B200B217FF /* CFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFViewController.m; sourceTree = "<group>"; };
+		CF26EDDA17FC88B200B217FF /* BMI_CalculatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMI_CalculatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF26EDDB17FC88B200B217FF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CF26EDE317FC88B200B217FF /* BMI_CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BMI_CalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		CF26EDE517FC88B200B217FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF26EDE717FC88B200B217FF /* BMI_CalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMI_CalculatorTests.h; sourceTree = "<group>"; };
+		CF26EDE817FC88B200B217FF /* BMI_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMI_CalculatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF26EDAE17FC88B200B217FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF26EDB517FC88B200B217FF /* UIKit.framework in Frameworks */,
+				CF26EDB717FC88B200B217FF /* Foundation.framework in Frameworks */,
+				CF26EDB917FC88B200B217FF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF26EDD617FC88B200B217FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF26EDDC17FC88B200B217FF /* SenTestingKit.framework in Frameworks */,
+				CF26EDDD17FC88B200B217FF /* UIKit.framework in Frameworks */,
+				CF26EDDE17FC88B200B217FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF26EDA817FC88B200B217FF = {
+			isa = PBXGroup;
+			children = (
+				CF26EDBA17FC88B200B217FF /* BMI_Calculator */,
+				CF26EDE117FC88B200B217FF /* BMI_CalculatorTests */,
+				CF26EDB317FC88B200B217FF /* Frameworks */,
+				CF26EDB217FC88B200B217FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF26EDB217FC88B200B217FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF26EDB117FC88B200B217FF /* BMI_Calculator.app */,
+				CF26EDDA17FC88B200B217FF /* BMI_CalculatorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF26EDB317FC88B200B217FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF26EDB417FC88B200B217FF /* UIKit.framework */,
+				CF26EDB617FC88B200B217FF /* Foundation.framework */,
+				CF26EDB817FC88B200B217FF /* CoreGraphics.framework */,
+				CF26EDDB17FC88B200B217FF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF26EDBA17FC88B200B217FF /* BMI_Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				CF26EDC317FC88B200B217FF /* CFAppDelegate.h */,
+				CF26EDC417FC88B200B217FF /* CFAppDelegate.m */,
+				CF26EDCC17FC88B200B217FF /* MainStoryboard_iPhone.storyboard */,
+				CF26EDCF17FC88B200B217FF /* MainStoryboard_iPad.storyboard */,
+				CF26EDD217FC88B200B217FF /* CFViewController.h */,
+				CF26EDD317FC88B200B217FF /* CFViewController.m */,
+				CF26EDBB17FC88B200B217FF /* Supporting Files */,
+			);
+			path = BMI_Calculator;
+			sourceTree = "<group>";
+		};
+		CF26EDBB17FC88B200B217FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF26EDBC17FC88B200B217FF /* BMI_Calculator-Info.plist */,
+				CF26EDBD17FC88B200B217FF /* InfoPlist.strings */,
+				CF26EDC017FC88B200B217FF /* main.m */,
+				CF26EDC217FC88B200B217FF /* BMI_Calculator-Prefix.pch */,
+				CF26EDC617FC88B200B217FF /* Default.png */,
+				CF26EDC817FC88B200B217FF /* Default@2x.png */,
+				CF26EDCA17FC88B200B217FF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF26EDE117FC88B200B217FF /* BMI_CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF26EDE717FC88B200B217FF /* BMI_CalculatorTests.h */,
+				CF26EDE817FC88B200B217FF /* BMI_CalculatorTests.m */,
+				CF26EDE217FC88B200B217FF /* Supporting Files */,
+			);
+			path = BMI_CalculatorTests;
+			sourceTree = "<group>";
+		};
+		CF26EDE217FC88B200B217FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF26EDE317FC88B200B217FF /* BMI_CalculatorTests-Info.plist */,
+				CF26EDE417FC88B200B217FF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF26EDB017FC88B200B217FF /* BMI_Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF26EDEC17FC88B200B217FF /* Build configuration list for PBXNativeTarget "BMI_Calculator" */;
+			buildPhases = (
+				CF26EDAD17FC88B200B217FF /* Sources */,
+				CF26EDAE17FC88B200B217FF /* Frameworks */,
+				CF26EDAF17FC88B200B217FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BMI_Calculator;
+			productName = BMI_Calculator;
+			productReference = CF26EDB117FC88B200B217FF /* BMI_Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF26EDD917FC88B200B217FF /* BMI_CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF26EDEF17FC88B200B217FF /* Build configuration list for PBXNativeTarget "BMI_CalculatorTests" */;
+			buildPhases = (
+				CF26EDD517FC88B200B217FF /* Sources */,
+				CF26EDD617FC88B200B217FF /* Frameworks */,
+				CF26EDD717FC88B200B217FF /* Resources */,
+				CF26EDD817FC88B200B217FF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF26EDE017FC88B200B217FF /* PBXTargetDependency */,
+			);
+			name = BMI_CalculatorTests;
+			productName = BMI_CalculatorTests;
+			productReference = CF26EDDA17FC88B200B217FF /* BMI_CalculatorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF26EDA917FC88B200B217FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Christina Francis";
+			};
+			buildConfigurationList = CF26EDAC17FC88B200B217FF /* Build configuration list for PBXProject "BMI_Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF26EDA817FC88B200B217FF;
+			productRefGroup = CF26EDB217FC88B200B217FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF26EDB017FC88B200B217FF /* BMI_Calculator */,
+				CF26EDD917FC88B200B217FF /* BMI_CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF26EDAF17FC88B200B217FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF26EDBF17FC88B200B217FF /* InfoPlist.strings in Resources */,
+				CF26EDC717FC88B200B217FF /* Default.png in Resources */,
+				CF26EDC917FC88B200B217FF /* Default@2x.png in Resources */,
+				CF26EDCB17FC88B200B217FF /* Default-568h@2x.png in Resources */,
+				CF26EDCE17FC88B200B217FF /* MainStoryboard_iPhone.storyboard in Resources */,
+				CF26EDD117FC88B200B217FF /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF26EDD717FC88B200B217FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF26EDE617FC88B200B217FF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF26EDD817FC88B200B217FF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF26EDAD17FC88B200B217FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF26EDC117FC88B200B217FF /* main.m in Sources */,
+				CF26EDC517FC88B200B217FF /* CFAppDelegate.m in Sources */,
+				CF26EDD417FC88B200B217FF /* CFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF26EDD517FC88B200B217FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF26EDE917FC88B200B217FF /* BMI_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF26EDE017FC88B200B217FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF26EDB017FC88B200B217FF /* BMI_Calculator */;
+			targetProxy = CF26EDDF17FC88B200B217FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF26EDBD17FC88B200B217FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF26EDBE17FC88B200B217FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF26EDCC17FC88B200B217FF /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF26EDCD17FC88B200B217FF /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CF26EDCF17FC88B200B217FF /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF26EDD017FC88B200B217FF /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CF26EDE417FC88B200B217FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF26EDE517FC88B200B217FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF26EDEA17FC88B200B217FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF26EDEB17FC88B200B217FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF26EDED17FC88B200B217FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BMI_Calculator/BMI_Calculator-Prefix.pch";
+				INFOPLIST_FILE = "BMI_Calculator/BMI_Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF26EDEE17FC88B200B217FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BMI_Calculator/BMI_Calculator-Prefix.pch";
+				INFOPLIST_FILE = "BMI_Calculator/BMI_Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF26EDF017FC88B200B217FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BMI_Calculator.app/BMI_Calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BMI_Calculator/BMI_Calculator-Prefix.pch";
+				INFOPLIST_FILE = "BMI_CalculatorTests/BMI_CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CF26EDF117FC88B200B217FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BMI_Calculator.app/BMI_Calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BMI_Calculator/BMI_Calculator-Prefix.pch";
+				INFOPLIST_FILE = "BMI_CalculatorTests/BMI_CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF26EDAC17FC88B200B217FF /* Build configuration list for PBXProject "BMI_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF26EDEA17FC88B200B217FF /* Debug */,
+				CF26EDEB17FC88B200B217FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF26EDEC17FC88B200B217FF /* Build configuration list for PBXNativeTarget "BMI_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF26EDED17FC88B200B217FF /* Debug */,
+				CF26EDEE17FC88B200B217FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF26EDEF17FC88B200B217FF /* Build configuration list for PBXNativeTarget "BMI_CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF26EDF017FC88B200B217FF /* Debug */,
+				CF26EDF117FC88B200B217FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF26EDA917FC88B200B217FF /* Project object */;
+}
