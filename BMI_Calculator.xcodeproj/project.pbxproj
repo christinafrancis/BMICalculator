@@ -24,6 +24,12 @@
 		CF26EDDE17FC88B200B217FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF26EDB617FC88B200B217FF /* Foundation.framework */; };
 		CF26EDE617FC88B200B217FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF26EDE417FC88B200B217FF /* InfoPlist.strings */; };
 		CF26EDE917FC88B200B217FF /* BMI_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF26EDE817FC88B200B217FF /* BMI_CalculatorTests.m */; };
+		CF26EDF417FC9E2700B217FF /* UITextField+NextPrevCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = CF26EDF317FC9E2700B217FF /* UITextField+NextPrevCategory.m */; };
+		CF26EDF617FCA4EB00B217FF /* Healthy Weight Assistant.GIF in Resources */ = {isa = PBXBuildFile; fileRef = CF26EDF517FCA4EB00B217FF /* Healthy Weight Assistant.GIF */; };
+		CF26EDF817FCA52200B217FF /* images_norm.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF26EDF717FCA52200B217FF /* images_norm.jpeg */; };
+		CF26EDFA17FCA53800B217FF /* start-diet-today.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF26EDF917FCA53800B217FF /* start-diet-today.jpg */; };
+		CF33810A1800877F00FD4F59 /* MyGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3381091800877F00FD4F59 /* MyGraphView.m */; };
+		CF33810D1800887700FD4F59 /* MyGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF33810C1800887700FD4F59 /* MyGraphViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +66,15 @@
 		CF26EDE517FC88B200B217FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF26EDE717FC88B200B217FF /* BMI_CalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMI_CalculatorTests.h; sourceTree = "<group>"; };
 		CF26EDE817FC88B200B217FF /* BMI_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMI_CalculatorTests.m; sourceTree = "<group>"; };
+		CF26EDF217FC9E2700B217FF /* UITextField+NextPrevCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+NextPrevCategory.h"; sourceTree = "<group>"; };
+		CF26EDF317FC9E2700B217FF /* UITextField+NextPrevCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+NextPrevCategory.m"; sourceTree = "<group>"; };
+		CF26EDF517FCA4EB00B217FF /* Healthy Weight Assistant.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Healthy Weight Assistant.GIF"; sourceTree = "<group>"; };
+		CF26EDF717FCA52200B217FF /* images_norm.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images_norm.jpeg; sourceTree = "<group>"; };
+		CF26EDF917FCA53800B217FF /* start-diet-today.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "start-diet-today.jpg"; sourceTree = "<group>"; };
+		CF3381081800877F00FD4F59 /* MyGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGraphView.h; sourceTree = "<group>"; };
+		CF3381091800877F00FD4F59 /* MyGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGraphView.m; sourceTree = "<group>"; };
+		CF33810B1800887700FD4F59 /* MyGraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGraphViewController.h; sourceTree = "<group>"; };
+		CF33810C1800887700FD4F59 /* MyGraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGraphViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +138,12 @@
 				CF26EDC417FC88B200B217FF /* CFAppDelegate.m */,
 				CF26EDCC17FC88B200B217FF /* MainStoryboard_iPhone.storyboard */,
 				CF26EDCF17FC88B200B217FF /* MainStoryboard_iPad.storyboard */,
+				CF26EDF217FC9E2700B217FF /* UITextField+NextPrevCategory.h */,
+				CF26EDF317FC9E2700B217FF /* UITextField+NextPrevCategory.m */,
+				CF3381081800877F00FD4F59 /* MyGraphView.h */,
+				CF3381091800877F00FD4F59 /* MyGraphView.m */,
+				CF33810B1800887700FD4F59 /* MyGraphViewController.h */,
+				CF33810C1800887700FD4F59 /* MyGraphViewController.m */,
 				CF26EDD217FC88B200B217FF /* CFViewController.h */,
 				CF26EDD317FC88B200B217FF /* CFViewController.m */,
 				CF26EDBB17FC88B200B217FF /* Supporting Files */,
@@ -133,6 +154,9 @@
 		CF26EDBB17FC88B200B217FF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CF26EDF517FCA4EB00B217FF /* Healthy Weight Assistant.GIF */,
+				CF26EDF717FCA52200B217FF /* images_norm.jpeg */,
+				CF26EDF917FCA53800B217FF /* start-diet-today.jpg */,
 				CF26EDBC17FC88B200B217FF /* BMI_Calculator-Info.plist */,
 				CF26EDBD17FC88B200B217FF /* InfoPlist.strings */,
 				CF26EDC017FC88B200B217FF /* main.m */,
@@ -241,6 +265,9 @@
 				CF26EDCB17FC88B200B217FF /* Default-568h@2x.png in Resources */,
 				CF26EDCE17FC88B200B217FF /* MainStoryboard_iPhone.storyboard in Resources */,
 				CF26EDD117FC88B200B217FF /* MainStoryboard_iPad.storyboard in Resources */,
+				CF26EDF617FCA4EB00B217FF /* Healthy Weight Assistant.GIF in Resources */,
+				CF26EDF817FCA52200B217FF /* images_norm.jpeg in Resources */,
+				CF26EDFA17FCA53800B217FF /* start-diet-today.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +305,9 @@
 				CF26EDC117FC88B200B217FF /* main.m in Sources */,
 				CF26EDC517FC88B200B217FF /* CFAppDelegate.m in Sources */,
 				CF26EDD417FC88B200B217FF /* CFViewController.m in Sources */,
+				CF26EDF417FC9E2700B217FF /* UITextField+NextPrevCategory.m in Sources */,
+				CF33810A1800877F00FD4F59 /* MyGraphView.m in Sources */,
+				CF33810D1800887700FD4F59 /* MyGraphViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +498,7 @@
 				CF26EDEE17FC88B200B217FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF26EDEF17FC88B200B217FF /* Build configuration list for PBXNativeTarget "BMI_CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +507,7 @@
 				CF26EDF117FC88B200B217FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
